@@ -5,6 +5,12 @@ const projects = [
     url: "boxes/",
     kind: "Outil web",
   },
+  {
+    name: "ConceptConstructif",
+    description: "Outil de chiffrage BTP : dessin 2D interactif, visualisation 3D et estimation automatique des coûts de construction.",
+    url: "concept-constructif/",
+    kind: "Outil web",
+  },
 ];
 
 function createProjectCard(project) {
