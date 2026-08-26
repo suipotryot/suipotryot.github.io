@@ -1,21 +1,21 @@
 const projects = [
   {
     name: "Boxes.js",
-    description: "Générateur local de plans de découpe laser pour boîtes à cloisons, inspiré de boxes.py TrayLayout.",
+    description: "Local laser-cutting layout generator for finger-jointed boxes, inspired by boxes.py's TrayLayout.",
     url: "boxes/",
-    kind: "Outil web",
+    kind: "Web tool",
   },
   {
     name: "ConceptConstructif",
-    description: "Outil de chiffrage BTP : dessin 2D interactif, visualisation 3D et estimation automatique des coûts de construction.",
+    description: "Construction cost estimator: interactive 2D drawing, 3D visualization, and automatic cost estimation.",
     url: "concept-constructif/",
-    kind: "Outil web",
+    kind: "Web tool",
   },
   {
     name: "SketchupMenuiseriesMaker",
-    description: "Extension SketchUp pour générer des menuiseries extérieures à fabriquer soi-même avec des outils électro-portatifs.",
+    description: "SketchUp extension to generate exterior joinery you can build yourself with power tools.",
     url: "sketchup-menuiseries-maker/",
-    kind: "Extension SketchUp",
+    kind: "SketchUp extension",
   },
 ];
 
@@ -45,7 +45,7 @@ function renderProjects() {
   if (projects.length === 0) {
     const empty = document.createElement("p");
     empty.className = "empty-state";
-    empty.textContent = "Les projets arrivent bientôt.";
+    empty.textContent = "More projects coming soon.";
     grid.append(empty);
     return;
   }
