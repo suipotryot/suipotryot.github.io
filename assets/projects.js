@@ -11,6 +11,12 @@ const projects = [
     url: "concept-constructif/",
     kind: "Outil web",
   },
+  {
+    name: "SketchupMenuiseriesMaker",
+    description: "Extension SketchUp pour générer des menuiseries extérieures à fabriquer soi-même avec des outils électro-portatifs.",
+    url: "sketchup-menuiseries-maker/",
+    kind: "Extension SketchUp",
+  },
 ];
 
 function createProjectCard(project) {
