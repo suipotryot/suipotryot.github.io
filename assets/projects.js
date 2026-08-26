@@ -1,4 +1,11 @@
-const projects = [];
+const projects = [
+  {
+    name: "Boxes.js",
+    description: "Générateur local de plans de découpe laser pour boîtes à cloisons, inspiré de boxes.py TrayLayout.",
+    url: "boxes/",
+    kind: "Outil web",
+  },
+];
 
 function createProjectCard(project) {
   const card = document.createElement("a");
