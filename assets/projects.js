@@ -12,6 +12,12 @@ const projects = [
     kind: "Web tool",
   },
   {
+    name: "Laser Labels",
+    description: "Engraving-ready SVG labels for hardware storage boxes, in French and English.",
+    url: "laser-labels/",
+    kind: "Web tool",
+  },
+  {
     name: "SketchupMenuiseriesMaker",
     description: "SketchUp extension to generate exterior joinery you can build yourself with power tools.",
     url: "sketchup-menuiseries-maker/",
